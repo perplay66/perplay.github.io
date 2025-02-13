@@ -1,0 +1,93 @@
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte usada no corpo da página */
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+    margin: 0; /* Remove a margem padrão da página */
+    padding: 0; /* Remove o preenchimento padrão da página */
+    display: flex; /* Usa o modelo de layout flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da página como a altura total da janela de visualização */
+}
+
+/* Estilização do contêiner do quiz */
+#quiz-container {
+    background-color: #fff; /* Define a cor de fundo do contêiner do quiz */
+    border-radius: 8px; /* Adiciona cantos arredondados ao contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do contêiner */
+    width: 100%; /* Define a largura do contêiner como 100% da largura disponível */
+    max-width: 600px; /* Define a largura máxima do contêiner */
+    padding: 20px; /* Adiciona preenchimento interno ao contêiner */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+/* Estilização do título principal */
+h1 {
+    color: #333; /* Define a cor do texto do título principal */
+}
+
+/* Estilização dos subtítulos */
+h2 {
+    color: #666; /* Define a cor do texto dos subtítulos */
+}
+
+/* Estilização do contêiner de opções */
+#options {
+    margin: 20px 0; /* Adiciona uma margem acima e abaixo do contêiner de opções */
+}
+
+/* Estilização dos rótulos de opções */
+label {
+    display: block; /* Define os rótulos como elementos de bloco */
+    margin-bottom: 10px; /* Adiciona uma margem abaixo dos rótulos */
+    font-size: 18px; /* Define o tamanho da fonte dos rótulos */
+}
+
+/* Estilização dos inputs de tipo rádio */
+input[type="radio"] {
+    margin-right: 10px; /* Adiciona uma margem à direita dos inputs */
+}
+
+/* Estilização do botão */
+button {
+    background-color: #007bff; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    cursor: pointer; /* Altera o cursor para um ponteiro ao passar sobre o botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+}
+
+/* Estilização do botão ao passar o mouse */
+button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilização do contêiner de pontuação */
+#score-container {
+    margin-top: 20px; /* Adiciona uma margem acima do contêiner de pontuação */
+    font-size: 24px; /* Define o tamanho da fonte do contêiner de pontuação */
+    font-weight: bold; /* Define a fonte como negrito */
+    color: #333; /* Define a cor do texto do contêiner de pontuação */
+}
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Define o estilo dos links de navegação */
+nav a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Adiciona um estilo ao passar o mouse sobre os links de navegação */
+nav a:hover {
+    background-color: white;
+    color: firebrick;
+}

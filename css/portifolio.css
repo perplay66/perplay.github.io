@@ -1,0 +1,105 @@
+/* Define a fonte padrão, remove margens e preenchimentos,
+   define a cor de fundo e centraliza o conteúdo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+/* Estiliza o cabeçalho com layout flexível,
+   alinhando o h1 à esquerda e o nav à direita */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Remove a margem do h1 para centralizar verticalmente o texto */
+header h1 {
+    margin: 0;
+}
+
+/* Posiciona a navegação no canto superior direito */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Define o estilo dos links de navegação */
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Adiciona um estilo ao passar o mouse sobre os links de navegação */
+nav a:hover {
+    background-color: #ddd;
+    color: firebrick;
+}
+
+/* Alinha o texto e a imagem lado a lado,
+   adiciona sombra para destaque e define espaçamento */
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #D3D3D3;
+    margin-top: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove a margem padrão do parágrafo e
+   adiciona espaçamento entre o texto e a imagem */
+.content p {
+    margin: 0 20px 0 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Define a largura máxima da imagem,
+   ajusta a altura automaticamente e adiciona bordas arredondadas */
+.content img {
+    max-width: 450px;
+    max-height: 400px;
+    text-emphasis: center;
+}
+
+.p {
+    font-size: 65px;
+    color: black;
+}
+
+p {
+    color: gainsboro;
+}
+/* Estilo do rodapé com imagens e links horizontalmente */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    margin: 0 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="bodyconv">
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="portifolio.html">Portifólio</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <h1>Conversor de Unidades</h1>
+    
+    <label for="value">Valor:</label>
+    <input type="number" id="value" placeholder="Insira o valor"><br><br>
+
+    <label for="conversion">Tipo de Conversão:</label>
+    <select id="conversion">
+        <option value="c-to-f">Celsius para Fahrenheit</option>
+        <option value="m-to-cm">Metros para Centímetros</option>
+        <option value="kg-to-lb">Quilos para Libras</option>
+    </select><br><br>
+
+    <button onclick="convert()">Converter</button>
+    
+    <h2>Resultado: <span id="result"></span></h2>
+
+    <script src="js/script3.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz de Conhecimentos Gerais</title>
+<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body class="bodyquiz">
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="portifolio.html">Portifólio</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <h1>Quiz de Conhecimentos Gerais</h1>
+    
+    <div id="quiz-container">
+        <div id="question-container">
+            <h2 id="question">Pergunta aqui</h2>
+            <!-- Contêiner para as opções de resposta -->
+            <div id="options">
+                <!-- Cada label contém um input radio para cada opção -->
+                <label><input type="radio" name="option" value="0"> <span id="option0">Opção 1</span></label><br>
+                <label><input type="radio" name="option" value="1"> <span id="option1">Opção 2</span></label><br>
+                <label><input type="radio" name="option" value="2"> <span id="option2">Opção 3</span></label><br>
+                <label><input type="radio" name="option" value="3"> <span id="option3">Opção 4</span></label><br>
+            </div>
+            <!-- Botão para avançar para a próxima pergunta -->
+            <button onclick="nextQuestion()">Próxima</button>
+        </div>
+        <!-- Contêiner para exibir a pontuação, inicialmente oculto -->
+        <h2 id="score-container" style="display:none;">Pontuação: <span id="score"></span>/5</h2>
+    </div>
+
+    <!-- Inclusão do arquivo JavaScript que contém a lógica do quiz -->
+    <script src="../psite/js/script5.js"></script>
+</body>
+</html>
